@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Titre de la page -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestion des réclamations"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Liste des réclamations -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reclamations_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <!-- Bouton pour ajouter une nouvelle réclamation -->
+    <Button
+        android:id="@+id/add_reclamation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter une réclamation" />
+
+    <!-- Formulaire pour ajouter une nouvelle réclamation -->
+
+
+</LinearLayout>

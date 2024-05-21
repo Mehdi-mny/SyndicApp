@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SyndicApp</string>
+    <string name="description">SyndicApp logo</string>
+    <string name="login">Login</string>
+    <string name="already_registered">already registered</string>
+    <string name="create_account">create account</string>
+    <string name="log_in_here">log in here</string>
+    <string name="nom">nom</string>
+    <string name="entrez_votre_email">entrez votre email</string>
+    <string name="mot_de_passe">mot de passe</string>
+    <string name="entrez_votre_mot_de_passe">entrez votre mot de passe</string>
+    <string name="numero_de_telephone">numero de telephone</string>
+    <string name="entrez_votre_numero_de_telephone">entrez votre numero de telephone</string>
+    <string name="date_de_naissance">date de naissance</string>
+    <string name="entrez_votre_date_de_naissance">entrez votre date de naissance</string>
+    <string name="valider">valider</string>
+    <string name="entrez_votre_nom">entrez votre nom</string>
+    <string name="e_mail">e-mail</string>
+    <string name="entrez_votre_e_mail">Entrez votre e-mail</string>
+    <string name="cr_er_un_compte">Créer un compte</string>
+    <string name="logo" />
+    <string name="documents">Documents</string>
+    <string name="planning">Planning</string>
+    <string name="a_proximit">A proximité</string>
+    <string name="reclamations">Reclamations</string>
+    <string name="history">History</string>
+    <string name="factures">Factures</string>
+    <string name="annonces">Annonces</string>
+    <string name="home">Home</string>
+    <string name="contact">Contact</string>
+    <string name="sign_out">Sign Out</string>
+
+
+</resources>

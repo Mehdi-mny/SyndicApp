@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "311773543559",
+    "project_id": "syndicapp-8df27",
+    "storage_bucket": "syndicapp-8df27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311773543559:android:8e5e7a91cda5c5db394c22",
+        "android_client_info": {
+          "package_name": "com.example.syndicapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuWCV7F95hhem8oq5s-Ns4zYBFvwgWUTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

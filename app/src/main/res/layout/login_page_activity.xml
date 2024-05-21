@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".login_page"
+    android:layout_margin="40dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="237dp"
+        android:layout_height="235dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/description"
+        android:src="@drawable/syndic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="@string/login"
+        android:textColorLink="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Champ de saisie pour l'e-mail -->
+    <TextView
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:layout_marginTop="16dp"
+        android:text="E-mail : "
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/entrez_votre_e_mail"
+        android:inputType="textEmailAddress"
+        android:drawableEnd="@drawable/email_icon"/>
+
+    <!-- Champ de saisie pour le mot de passe -->
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Mot de passe : "
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre mot de passe"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/password_icon"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/cr_er_un_compte"
+    android:textColor="@color/my_light_primary"
+    android:textSize="19sp"
+    android:layout_marginStart="190dp"
+    android:onClick="onCreateAccountClicked" />
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/valider"
+        android:onClick="onLoginClicked"
+        android:textColor="@color/white" />
+
+</LinearLayout>
