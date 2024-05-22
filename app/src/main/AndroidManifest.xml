@@ -40,6 +40,10 @@
             android:name=".MapActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".Reclamations"
+            android:exported="false">
+        </activity>
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBYmn-0wthoCwz3BxC5XlZ8WP6W1I4JMJY"/>
     </application>

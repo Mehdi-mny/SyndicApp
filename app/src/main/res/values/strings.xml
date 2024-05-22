@@ -29,6 +29,11 @@
     <string name="home">Home</string>
     <string name="contact">Contact</string>
     <string name="sign_out">Sign Out</string>
+    <string name="google_maps">Google Maps</string>
+    <string name="ajouter_une_r_clamation">Ajouter une réclamation</string>
+    <string name="back_btn_description">back_btn_description</string>
+    <string name="title">title</string>
+    <string name="rec_description">description</string>
 
 
 </resources>

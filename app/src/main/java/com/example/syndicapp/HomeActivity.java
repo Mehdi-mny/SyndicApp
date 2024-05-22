@@ -42,4 +42,10 @@ public class HomeActivity extends Activity {
         startActivity(intent);
         finish();
     }
+
+    public void Reclamations(View view) {
+        Intent intent = new Intent(HomeActivity.this, Reclamations.class);
+        startActivity(intent);
+        finish();
+    }
 }
